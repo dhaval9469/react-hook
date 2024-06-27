@@ -4,7 +4,9 @@
 // import UnControlled from "./component/useRef/useRef";
 // import UseReducerHook from "./component/useReducer/useReducer";
 // import Login from "./component/login/Login";
-import ToDoList from "./component/todoList/todolist";
+// import ToDoList from "./component/todoList/todolist";
+// import Reduxdemo from "./component/redux_state/reduxdemo";
+import ComA from "./component/contextApi/comA";
 import "./App.css";
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
       {/* <UseEffectApi /> */}
       {/* <UnControlled /> */}
       {/* <UseReducerHook /> */}
-      <ToDoList />
+      {/* <ToDoList /> */}
+      {/* <Reduxdemo /> */}
+      <ComA />
     </div>
   );
 }
