@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-left: 40px; */
+  /* padding-right: 40px; */
+  justify-content: space-evenly;
+}
+
+.userDetails {
+  height: 150px;
+  width: 33%px;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 35px;
+  /* margin-right: 35px; */
+}
+
+#user-img {
+  height: 150px;
+  width: 170px;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.user-info {
+  height: 150px;
+  width: 230px;
+  align-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#username {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#usertec {
+  margin-bottom: 15px;
+  margin-left: 10px;
+
+  font-size: 1.1rem;
+}
+
+.user-git-info {
+  height: 50px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #dddddd;
+}
+
+.activits {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: block;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+#a-h {
+  font-size: 1rem;
+}
+
+#a-v {
+  font-size: 1.5rem;
+  font-weight: 600;
+}

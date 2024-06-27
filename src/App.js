@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import Useeffect2 from "./component/useeffect2.js";
+// import UseEffect2 from "./component/useEffect/useEffect2";
+// import UseEffectApi from "./component/useEffect/useEffectApi";
+// import UnControlled from "./component/useRef/useRef";
+// import UseReducerHook from "./component/useReducer/useReducer";
+// import Login from "./component/login/Login";
+import ToDoList from "./component/todoList/todolist";
+import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Login /> */}
+      {/* <Useeffect /> */}
+      {/* <UseEffect2 /> */}
+      {/* <UseEffectApi /> */}
+      {/* <UnControlled /> */}
+      {/* <UseReducerHook /> */}
+      <ToDoList />
     </div>
   );
 }
